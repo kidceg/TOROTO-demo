@@ -37,32 +37,122 @@ body{margin-top: 50px;}
 .move5:hover   p{opacity: 1;}
 
 
+.line{
+	margin: 50px 15px;
+	height: 2px;
+	text-align: center;
+	border-bottom: 1px solid #D8D8D8;
 
-.rows div{
-	  display: inline-block;
-      height: 100%;
-      min-height: 100%;
-      float: none;
 }
 
-.icons div{
-
-	width: 85px;
-	background-color: yellowgreen;
-	margin: 5px 0;
+.line span{
+	position: relative;
+	padding: 0 30px;
+	top: -16px;
+	font-size: 25px;
+	color: gray;
+	background-color: white;
 }
-.icons img{
+
+.icons{
+	width: 90%;
+	margin: 20px auto;
+	font-size: 0;
+	text-align:  center;
+	/* background-color: yellowgreen; */
+}
+.icon{
+	display: inline-block;
+	width: 10%;
+	padding: 8px;
+}
+
+.icon img{
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px gray, 0 0 3px gray;
+}
+
+#imgs{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+    border: 8px solid pink;
+}
+
+#imgs:after{
+	display: block;
+	content: "";
+	height: 0;
+	overflow: hidden;
+	clear: both;
+	zoom: 1;
+}
+
+.box{
+	float: left;
+	width: 20%;
+	padding: 15px;
+}
+
+.smbox{
+	padding: 10px;
+	box-shadow: 0px 0px 5px gray;
+}
+
+.smbox img{
 	width: 100%;
 }
 
 
 @media (max-width: 970px) {
-     .icons div{
-      margin: 5px 0;
-     }
+
+.icon{
+	width: 12%;
+}
+
+.box{
+	width: 25%;
+	padding: 10px;
+}
+
+.smbox{
+	padding: 8px;
+}
+
+
+
+
 
 }
 
 @media (max-width: 500px) {
+
+.icon{
+	width: 18%;
+	padding: 5px;
+}
+
+.line{
+	margin: 30px 10px;
+}
+
+.line span{
+	padding: 0 10px;
+	top: -12px;
+	font-size: 15px;
+
+}
+
+.box{
+	width: 50%;
+	padding: 6px;
+}
+
+.smbox{
+	padding: 8px;
+}
+
+
 
 }
