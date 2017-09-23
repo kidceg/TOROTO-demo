@@ -36,7 +36,6 @@ body{margin-top: 50px;}
 .move5:hover  h2{opacity: 1;}
 .move5:hover   p{opacity: 1;}
 
-
 .line{
 	margin: 50px 15px;
 	height: 2px;
@@ -77,16 +76,7 @@ body{margin-top: 50px;}
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
-    border: 8px solid pink;
-}
-
-#imgs:after{
-	display: block;
-	content: "";
-	height: 0;
-	overflow: hidden;
-	clear: both;
-	zoom: 1;
+    border: 8px solid white;
 }
 
 .box{
@@ -98,12 +88,12 @@ body{margin-top: 50px;}
 .smbox{
 	padding: 10px;
 	box-shadow: 0px 0px 5px gray;
+    border-radius: 5px;
 }
 
 .smbox img{
 	width: 100%;
 }
-
 
 @media (max-width: 970px) {
 
@@ -119,10 +109,6 @@ body{margin-top: 50px;}
 .smbox{
 	padding: 8px;
 }
-
-
-
-
 
 }
 
@@ -141,7 +127,6 @@ body{margin-top: 50px;}
 	padding: 0 10px;
 	top: -12px;
 	font-size: 15px;
-
 }
 
 .box{
@@ -152,7 +137,5 @@ body{margin-top: 50px;}
 .smbox{
 	padding: 8px;
 }
-
-
 
 }
