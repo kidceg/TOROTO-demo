@@ -64,13 +64,30 @@ body{margin-top: 50px;}
 	display: inline-block;
 	width: 10%;
 	padding: 8px;
+	overflow: hidden;
+	perspective:800px;
+
 }
 
 .icon img{
 	width: 100%;
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px gray, 0 0 3px gray;
+	transition: all 1s;
 }
+
+.icon1:hover {
+	transform: rotate(360deg) scale(0.5);}
+.icon2:hover {transform: rotateX(180deg);}
+.icon3:hover {transform: rotateY(180deg);}
+.icon4:hover {transform:  rotateX(120deg) rotateZ(180deg);}
+.icon5:hover {transform:  rotateX(180deg) rotateY(180deg);}
+.icon6:hover {border-radius: 50%;}
+.icon7:hover {border-top-left-radius: 50%;border-bottom-right-radius: 50%;}
+.icon8:hover {border-top-right-radius: 50%;border-bottom-left-radius: 50%;}
+.icon9:hover {transform: rotateX(360deg);width: 50%;}
+
+
 
 #imgs{
 	position: relative;
